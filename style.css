@@ -1,0 +1,249 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(7, 7, 7);
+
+    box-shadow: spread 0 0 5px grey; 
+
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(22, 22, 22);
+}
+
+body {
+    background-color: black;
+}
+
+#dropdownMenu {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+
+    color: white;
+    background-color: rgb(22, 22, 22);
+
+    outline: rgb(22, 22, 22);
+
+    width: 400px;
+    height: 24px;
+
+    border-style: solid;
+    border-radius: 100px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    padding-left: 5px;
+
+}
+
+#getButton {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: medium;
+    
+    background-color: rgb(7, 7, 7);
+
+    position: absolute;
+
+    top: 717.5px;
+    left: 365px;
+
+    height: 24px;
+
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 50px;
+    
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+}
+
+#movieImage {
+    background-image: url(https://image.tmdb.org/t/p/w500/ff2ti5DkA9UYLzyqhQfI2kZqEuh.jpg) no-repeat center;
+    background-size: cover;
+
+    background-color: grey;
+    background-blend-mode: multiply;
+
+    filter: blur(10px);
+    filter: brightness(25%);
+    z-index: -1;
+
+    border-radius: 10px;
+
+    width: 1335px;
+    height: 690px;
+}
+
+#movieProfile #poster {
+    position: absolute;
+
+    top: 10px;
+
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+
+    width: 200px;
+    height: 300px;
+
+    border-radius: 35px;
+
+    display: inline;
+}
+
+#movieProfile #title {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    top: 10px;
+    left: 240px;
+
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#movieProfile #tagline {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+
+    top: 65px;
+    left: 240px;
+
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#movieProfile #status {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    top: 115px;
+    left: 240px;
+
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+
+}
+
+#movieProfile #popularity {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    top: 165px;
+    left: 240px;
+
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#movieProfile #voteAverage {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    top: 185px;
+    left: 240px;
+
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#movieProfile #voteCount {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    top: 205px;
+    left: 240px;
+
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#movieProfile #budget {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    top: 245px;
+    left: 240px;
+
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#movieProfile #overview {
+    position: absolute;
+
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 145%;
+    color: white;
+
+    top: 345px;
+    left: 15px;
+
+    width: 665px;
+
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#trailer {
+    position: absolute;
+
+    margin-top: 25px;
+    margin-right: 10px;
+
+    right: 30px;
+    top: 340px;
+
+    aspect-ratio: 16/9;
+
+    height: 300px;
+    width: 450px;
+
+    border-radius: 10px;
+}

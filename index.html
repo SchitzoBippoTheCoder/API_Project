@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src = "./script.js", defer></script>
+    <title>Movie Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" , defer></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
+
 <body>
     
+    <div id="movieImage">
+
+    </div>
+    <div id="movieProfile">
+        <img id="poster" src="">
+        <h1 id="title"></h1>
+        <h3 id="tagline"></h3>
+        <h3 id="status"></h3>
+        <p id="popularity"></p>
+        <p id="voteAverage"></p>
+        <p id="voteCount"></p>
+        <p id="budget"></p>
+        <p id="overview"></p>
+        
+    </div>
+    <iframe id="trailer"></iframe>
+
+    <select name="listOfMovies" id="dropdownMenu">
+        <option value="245891">John Wick</option>
+        <option value="524251">I See You</option>
+        <option value="40662">Batman: Under the Red Hood</option>
+        <option value="146233">Prisoners</option>
+        <option value="515001">Jojo Rabbit</option>
+        <option value="183011">Justice League: The Flashpoint Paradox</option>
+        <option value="11423">살인의 추억</option>
+        <option value="13002">Barbie in the 12 Dancing Princesses</option>
+        <option value="155">The Dark Knight</option>
+        <option value="73456">Barbie: Princess Charm School</option>
+    </select>
+
+    <button id="getButton" onclick="GetMovieData()">Get</button>
 </body>
+
 </html>
