@@ -39,6 +39,8 @@ body {
     border-style: solid;
     border-radius: 100px;
 
+    margin-left: 5px;
+
     margin-top: 20px;
     margin-bottom: 15px;
 
@@ -103,7 +105,7 @@ body {
 
     position: absolute;
 
-    top: 717.5px;
+    top: 718px;
     left: 365px;
 
     height: 24px;
@@ -131,8 +133,10 @@ body {
 
     border-radius: 10px;
 
-    width: 1300px;
+    width: 98.5vw;
     height: 690px;
+
+    margin-left: 5px;
 }
 
 #movieProfile #poster {
@@ -143,7 +147,7 @@ body {
     padding-top: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
-    padding-left: 25px;
+    padding-left: 30px;
 
     width: 200px;
     height: 300px;
